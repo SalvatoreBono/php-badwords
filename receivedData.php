@@ -11,6 +11,10 @@ $censoredWord = $_POST["censoredWord"];
 /*  str_replace (primo argomento: mettere la parola che si vuole sostituire) (secondo argomento: con quale parola sostituirla)  (terzo argomento: dove mettere la parola sostitutita)*/
 $censoredParagraph = str_replace($censoredWord,"***",$paragraph);
 
+/*  strlen  lunghezza del paragrafo censurato */
+$censoredParagraphLen = strlen($censoredParagraph);
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,8 +53,7 @@ $censoredParagraph = str_replace($censoredWord,"***",$paragraph);
                 </div>
                 <div  class="col-6 border border-danger">
                 <h1>TESTO CENSURATO</h1>
-
-                    <p><?php echo $censoredParagraph . " " . $paragraphLen?></p>
+                    <p><?php echo $censoredParagraph . " " . $censoredParagraphLen?></p>
                 </div>
             </div>
 

@@ -14,7 +14,7 @@
 
 <body>
     <div id="app">
-        <div class="container">
+        <div class="container pt-5">
             <!-- collegare il file alla quale vengono inviati i dati e il method -->
             <form action="receivedData.php" method="POST">
                 <div class="input-group pb-3">
