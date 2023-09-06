@@ -24,7 +24,7 @@
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Parola da censurare</span>
-                    
+
                     <!-- dare il name -->
                     <input type="text" class="form-control" name="censoredWord" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
